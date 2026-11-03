@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Desktop login rendered",
+    "Empty dashboard rendered; no invented performance data",
+    "AI reports render and generation is disabled without key",
+    "Each content has its own copy fields",
+    "Copy previous creative text works",
+    "Review rejects missing account selection",
+    "Team and integration settings render",
+    "390px mobile reports have no horizontal overflow",
+    "390px mobile login has no horizontal overflow"
+  ],
+  "pageErrors": [],
+  "harness": "In-memory browser; React 19.1.1 bundled with installed Playwright; JSX transpiled by local TypeScript; fetch fixtures only. Not a production dependency build."
+}

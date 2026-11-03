@@ -1,0 +1,22 @@
+{
+  "release": "0.1.0",
+  "scope": "Foundation and read-only AI source implementation",
+  "unit_tests": {
+    "passed": 42,
+    "failed": 0
+  },
+  "offline_ui_checks": {
+    "passed": 9,
+    "page_errors": 0
+  },
+  "mysql_integration_tests": {
+    "included": 14,
+    "run_locally": false
+  },
+  "production_vite_build": "not run - npm registry unavailable",
+  "dependency_audit": "not run",
+  "live_meta_test": false,
+  "live_openai_test": false,
+  "hostinger_deployed": false,
+  "live_publishing_implemented": false
+}

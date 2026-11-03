@@ -1,0 +1,262 @@
+TAP version 13
+# Subtest: twelve accounts with five creatives creates sixty ad-set intents
+ok 1 - twelve accounts with five creatives creates sixty ad-set intents
+  ---
+  duration_ms: 3.875094
+  type: 'test'
+  ...
+# Subtest: budget increments and per-account totals use integer minor units
+ok 2 - budget increments and per-account totals use integer minor units
+  ---
+  duration_ms: 0.440015
+  type: 'test'
+  ...
+# Subtest: manual override affects only selected account
+ok 3 - manual override affects only selected account
+  ---
+  duration_ms: 0.261415
+  type: 'test'
+  ...
+# Subtest: creatives and copy remain shared
+ok 4 - creatives and copy remain shared
+  ---
+  duration_ms: 0.270428
+  type: 'test'
+  ...
+# Subtest: duplicate accounts rejected
+ok 5 - duplicate accounts rejected
+  ---
+  duration_ms: 0.384831
+  type: 'test'
+  ...
+# Subtest: more than twelve accounts rejected
+ok 6 - more than twelve accounts rejected
+  ---
+  duration_ms: 0.177237
+  type: 'test'
+  ...
+# Subtest: empty creatives rejected
+ok 7 - empty creatives rejected
+  ---
+  duration_ms: 0.170778
+  type: 'test'
+  ...
+# Subtest: zero budget rejected
+ok 8 - zero budget rejected
+  ---
+  duration_ms: 0.234785
+  type: 'test'
+  ...
+# Subtest: negative resulting budget rejected
+ok 9 - negative resulting budget rejected
+  ---
+  duration_ms: 0.528007
+  type: 'test'
+  ...
+# Subtest: fractional cents rejected
+ok 10 - fractional cents rejected
+  ---
+  duration_ms: 0.530712
+  type: 'test'
+  ...
+# Subtest: invalid age range rejected
+ok 11 - invalid age range rejected
+  ---
+  duration_ms: 0.276828
+  type: 'test'
+  ...
+# Subtest: end before start rejected
+ok 12 - end before start rejected
+  ---
+  duration_ms: 0.27764
+  type: 'test'
+  ...
+# Subtest: insecure media references rejected
+ok 13 - insecure media references rejected
+  ---
+  duration_ms: 0.212551
+  type: 'test'
+  ...
+# Subtest: unknown currency rejected for two-decimal budget builder
+ok 14 - unknown currency rejected for two-decimal budget builder
+  ---
+  duration_ms: 0.148935
+  type: 'test'
+  ...
+# Subtest: currencies never mixed
+ok 15 - currencies never mixed
+  ---
+  duration_ms: 1.650254
+  type: 'test'
+  ...
+# Subtest: CTR CPC CPM are deterministic
+ok 16 - CTR CPC CPM are deterministic
+  ---
+  duration_ms: 0.193112
+  type: 'test'
+  ...
+# Subtest: related action types are not double counted
+ok 17 - related action types are not double counted
+  ---
+  duration_ms: 0.234374
+  type: 'test'
+  ...
+# Subtest: no divide by zero or fake zero CPA
+ok 18 - no divide by zero or fake zero CPA
+  ---
+  duration_ms: 0.109485
+  type: 'test'
+  ...
+# Subtest: empty data yields no fake metrics
+ok 19 - empty data yields no fake metrics
+  ---
+  duration_ms: 0.805437
+  type: 'test'
+  ...
+# Subtest: report schema requires human review
+ok 20 - report schema requires human review
+  ---
+  duration_ms: 0.103066
+  type: 'test'
+  ...
+# Subtest: grounded report accepted
+ok 21 - grounded report accepted
+  ---
+  duration_ms: 0.220192
+  type: 'test'
+  ...
+# Subtest: invented evidence rejected
+ok 22 - invented evidence rejected
+  ---
+  duration_ms: 0.388567
+  type: 'test'
+  ...
+# Subtest: missing evidence rejected
+ok 23 - missing evidence rejected
+  ---
+  duration_ms: 0.300534
+  type: 'test'
+  ...
+# Subtest: autonomous-action report rejected
+ok 24 - autonomous-action report rejected
+  ---
+  duration_ms: 0.309458
+  type: 'test'
+  ...
+# Subtest: Responses output text extracted
+ok 25 - Responses output text extracted
+  ---
+  duration_ms: 0.254555
+  type: 'test'
+  ...
+# Subtest: incomplete response rejected
+ok 26 - incomplete response rejected
+  ---
+  duration_ms: 0.09975
+  type: 'test'
+  ...
+# Subtest: refusal rejected
+ok 27 - refusal rejected
+  ---
+  duration_ms: 0.085419
+  type: 'test'
+  ...
+# Subtest: password is hashed and correct password verifies
+ok 28 - password is hashed and correct password verifies
+  ---
+  duration_ms: 270.150221
+  type: 'test'
+  ...
+# Subtest: password salts differ
+ok 29 - password salts differ
+  ---
+  duration_ms: 203.179123
+  type: 'test'
+  ...
+# Subtest: short password rejected
+ok 30 - short password rejected
+  ---
+  duration_ms: 0.504682
+  type: 'test'
+  ...
+# Subtest: oversized password rejected
+ok 31 - oversized password rejected
+  ---
+  duration_ms: 0.265461
+  type: 'test'
+  ...
+# Subtest: malformed password hash rejected
+ok 32 - malformed password hash rejected
+  ---
+  duration_ms: 0.122065
+  type: 'test'
+  ...
+# Subtest: authenticated token encryption round trip
+ok 33 - authenticated token encryption round trip
+  ---
+  duration_ms: 0.735982
+  type: 'test'
+  ...
+# Subtest: token encryption is randomized
+ok 34 - token encryption is randomized
+  ---
+  duration_ms: 0.302117
+  type: 'test'
+  ...
+# Subtest: wrong encryption key fails
+ok 35 - wrong encryption key fails
+  ---
+  duration_ms: 0.261485
+  type: 'test'
+  ...
+# Subtest: tampering is detected
+ok 36 - tampering is detected
+  ---
+  duration_ms: 0.453044
+  type: 'test'
+  ...
+# Subtest: invalid encryption key rejected
+ok 37 - invalid encryption key rejected
+  ---
+  duration_ms: 0.368177
+  type: 'test'
+  ...
+# Subtest: constant-time comparison returns expected values
+ok 38 - constant-time comparison returns expected values
+  ---
+  duration_ms: 0.418182
+  type: 'test'
+  ...
+# Subtest: CSRF token bound to session and secret
+ok 39 - CSRF token bound to session and secret
+  ---
+  duration_ms: 0.22472
+  type: 'test'
+  ...
+# Subtest: tokens are unique and digests fixed length
+ok 40 - tokens are unique and digests fixed length
+  ---
+  duration_ms: 0.175295
+  type: 'test'
+  ...
+# Subtest: malformed cookie handled without throwing
+ok 41 - malformed cookie handled without throwing
+  ---
+  duration_ms: 0.209897
+  type: 'test'
+  ...
+# Subtest: email normalization and validation
+ok 42 - email normalization and validation
+  ---
+  duration_ms: 0.195856
+  type: 'test'
+  ...
+1..42
+# tests 42
+# suites 0
+# pass 42
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 551.774875
